@@ -1,0 +1,16 @@
+Body {
+    font-family:sans-serif;
+
+}
+h1,h2 {
+
+ color:hotpink;
+    
+}
+
+.evenrow { background-color: blueviolet;} 
+
+h1 {font-size: 3em;
+}
+
+h2 {font-size: 2em;}
