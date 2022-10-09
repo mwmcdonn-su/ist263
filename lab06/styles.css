@@ -1,16 +1,20 @@
-Body {
-    font-family:sans-serif;
-
-}
-h1,h2 {
-
- color:hotpink;
-    
+p, ul, td, th {
+    color: rgb(16, 15, 16);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.evenrow { background-color: blueviolet;} 
+h1 {
 
-h1 {font-size: 3em;
+    color: darkgreen;
+    font size:150%;
 }
 
-h2 {font-size: 2em;}
+h2 {
+color: mediumorchid;
+font-size: 100%;
+}
+
+.evenrow{
+
+ background-color: dodgerblue;
+}
