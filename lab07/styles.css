@@ -1,0 +1,43 @@
+
+body {
+
+background-color: #FFF9B0 ;
+
+}
+FFF9B0
+h1 {
+color: #A084CA;
+
+}
+
+
+P {
+
+color: #FF884B;
+
+}
+
+
+
+A {
+Color: #aac4ca;
+
+}
+
+nav { 
+
+  background-color: #d2daff;  
+  padding:10px;
+margin-bottom: 30px;
+
+}
+
+nav a {
+
+color:  #f94892;
+}
+
+nav a:hover { 
+
+    color: red;
+}

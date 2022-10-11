@@ -1,0 +1,30 @@
+p {
+
+    color: #e38f09;
+    background-color: ;
+}
+/* changes color of visted link*/
+a:visted {
+
+    color: #b045;
+}
+
+a:hover { 
+
+    color: #b04
+}
+
+
+body {
+
+background-color: #000;
+background-image: url(../images/headshot.png);
+background-repeat: no-repeat;
+}
+
+.second {
+
+    Border:2px solid #f0f
+    
+}
+
