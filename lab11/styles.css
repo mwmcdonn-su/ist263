@@ -1,32 +1,32 @@
 
 body {
 
-    background-color: #FFF9B0 ;
+    background-color: #fcf8d2 ;
     
     }
     
     h1 {
-    color: #A084CA;
+    color: #944dff;
     
     }
     
     
     P {
     
-    color: #FF884B;
+    color: #f75f13;
     
     }
     
     
     
     A {
-    Color: #aac4ca;
+    Color: #3cc3e1;
     
     }
     
     nav { 
     
-      background-color: #d2daff;  
+      background-color: #dae1fe;  
       padding:10px;
     margin-bottom: 30px;
     
@@ -34,7 +34,7 @@ body {
     
     nav a {
     
-    color:  #f94892;
+    color:  #fc1877;
     }
     
     nav a:hover { 
