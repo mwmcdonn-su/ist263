@@ -1,0 +1,52 @@
+
+body {
+
+    background-color: #FFF9B0 ;
+    
+    }
+    
+    h1 {
+    color: #A084CA;
+    
+    }
+    
+    
+    P {
+    
+    color: #FF884B;
+    
+    }
+    
+    
+    
+    A {
+    Color: #aac4ca;
+    
+    }
+    
+    nav { 
+    
+      background-color: #d2daff;  
+      padding:10px;
+    margin-bottom: 30px;
+    
+    }
+    
+    nav a {
+    
+    color:  #f94892;
+    }
+    
+    nav a:hover { 
+    
+        color: red;
+    }
+    
+    /*index*/
+    .bioimage {max-width:100;width:100%;}
+    
+    @media only screen and (max-width:600px){ 
+      mav a {max-width:100%; display:block;}
+      span {display:none;}
+    }
+    

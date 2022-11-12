@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .welcome { 
+            display: flex;
+            justify-content: center;
+        }
+        .skip { 
+            background-color: yellow;
+            padding:5px;
+            border: 1px solid black;
+            position: absolute;
+            top: 30px; 
+            left: -999px; /* pushes it off screen*/
+
+        }
+/*focus is a psuedo class that means the element has been tabbed to */
+        .skipfocus { 
+            left: 10px;
+
+        }
+    </Style>
+</head>
+<body>
+    <a href="#content" class="skip" tableindex ="1">Skip to Content</a>
+    <a href="http://www.syr.edu" tabindex="2"> Syracuse U.</a><br>
+    <a href="http://www.google.com" tabindex="3"> Google</a><br>
+    <a href="http://www.amazon.com" tabindex="4"> Amazon</a>
+    <div class="welcome">Hello World</div>
+<p> id= "content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorum, corrupti natus excepturi repudiandae rem tempore minima est doloremque. Hic ipsum incidunt quas accusamus neque porro earum dolorem reprehenderit expedita.</p>
+</body>
+</html>
