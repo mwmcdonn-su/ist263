@@ -10,7 +10,48 @@
  
 
     <style>
+      *{ 
+        padding: 0;
+        margin: 0;
+      }
       
+      .container {
+        max-width: 1224px;
+        width: 90%;
+        margin: auto;
+        padding: 40px;
+      }
+      .title {
+        margin-bottom: 2rem;
+      }
+
+      .photo-gallery {
+        display: flex;
+        gap: 20px;
+
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .photo {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      @media (max-width:780px){
+        .photo-gallery{
+          flex-direction: column;
+        }
+      }
+      
+
+    
     </style>
 </head>
 
@@ -29,46 +70,64 @@
 <h1> About Copenhagen:</h1>
 <p>The Danes are known has the happiest people in the world. This couldn’t be truer, from living life extremely sustainability friendly, exciting restaurants to eat, incredible architecture, and lots of royal history: Copenhagen is truly the happiest place on earth. From free college tuition, extensive employee vacation says, and shorter weekdays, there is truly nothing not to like about this city. New York City is known as the city that never sleeps, but Copenhageners are known to bike up to 1.44 million kilometers daily, which is an estimated 894,774 miles a day. Copenhagen is located right on the coastal islands of Zealand and Amager. Being the largest city in Copenhagen, there is always so much to offer. It truly is the happiest city in the world for a multitude of reasons. </p>
 
-<h1> Things To Do:</h1>
-<p>1) Visit the Amalienborg Palace, where the Danish Royal Family lives </p>
-<img src="../images/IMG_1063.JPG" alt="Amalienborg Palace"
-width="380"><br>
-
-<p>2)Enjoy the magic of the Tivoli Gardens, one of the oldest theme parks in the word </p>
-<img src="../images/IMG_1061.JPG" alt="Tivoli Gardens"
-width="380"><br>
-
-<p>3)Eat at the famous Sticks n' Sushi restaurant in Copenhagen  </p>
-<img src="../images/IMG_1060.JPG" alt="Sticks n' Sushi"
-width="380"><br>
 
 
-<p>4)Visit the Louisiana Museum of Modern Art </p>
-<img src="../images/IMG_1058.JPG" alt="Art"
-width="380"><br>
+<div class="container">
+  <h2 class="title"> Things To Do:</h2>
+  <div class="photo-gallery">
+    <div class="column">
+      <div class="photo">
+        <img src="../images/IMG_1063.JPG" alt="Amalienborg Palace">
+        <p class="paragraph">Visit the Amalienborg Palace</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1061.JPG" alt="Tivoli Gardens">
+        <p class="paragraph">Enjoy the magic of Tivoli Gardens</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1060.JPG" alt="Sticks n' Sushi">
+        <p class="paragraph">Eat at Sticks n' Sushi</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="photo">
+        <img src="../images/IMG_1058.JPG" alt="Art">
+        <p class="paragraph">Visit the Louisiana Art Museum</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1064.JPG" alt="Canal">
+        <p class="paragraph">Stroll down Nyhavn</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1062.JPG" alt="Hotdog">
+        <p class="paragraph">Eat a Danish hotdog</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="photo">
+        <img src="../images/IMG_1059.JPG" alt="bike">
+        <p class="paragraph">Bike around to see the city</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1061.JPG" alt="Malmo">
+        <p class="paragraph">Take the train to Malmo, Sweden</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1055.JPG" alt="ARos">
+        <p class="paragraph">Visit ARoS Aarhus Art Museum</p>
+      </div>
+      <div class="photo">
+        <img src="../images/IMG_1057.JPG" alt="Burger">
+        <p class="paragraph">Try a famous Danish burger</p>
+      </div>
+    </div>
 
-<p>5)Stroll down the 17th-century waterfront canal on Nyhavn </p>
-<img src="../images/IMG_1064.JPG" alt="Canal"
-width="380"><br>
+  </div>
 
-<p>6)Grab a Danish hot dog while walking the Streets of Copenhagen </p>
-<img src="../images/IMG_1062.JPG" alt="Hotdog"
-width="380"><br>
+</div>
 
-<p>7)Rent a bike and bike around the city to see the most amazing views</p>
-<img src="../images/IMG_1059.JPG" alt="Bike"
-width="380"><br>
 
-<p>8)Take the 30 minute train to Malmo, Sweden  </p>
-<img src="../images/IMG_1061.JPG" alt="Malmo"
-width="380"><br>
 
-<p>9)Visit ARoS Aarhus Art Museum</p>
-<img src="../images/IMG_1055.JPG" alt="ARos"
-width="380"><br>
-<p>10)Make a reservation at one of the top burger restaurants in Copenhagen  </p>
-<img src="../images/IMG_1057.JPG" alt="Burger"
-width="380"><br>
 
 
 
