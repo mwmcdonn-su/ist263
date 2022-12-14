@@ -4,56 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-
     <style>
-       
-        
-        
+        * {
+        box-sizing: border-box;
+    }
+    nav {
+        overflow: hidden;
+        background: lightskyblue;
+        line-height: 30px;
+    }
+    nav a {
+        float:left;
+        display: block;
+        width:auto;
+        text-align:center;
+        color:rgb(113, 65, 4);
+        padding:20px;
+    }
+
+    nav a:hover {
+        background:tan;
+        color: black
+    }
+
+    nav input {
+        float: right;
+        padding: 6px;
+        border:none;
+        margin-top: 16px;
+        margin-bottom:5px;
+        font-size: 17px;
+        border-radius: 10px;
+        outline:none;
+    }
+
+    h1 {
+        color:blue;
+        text-align: center;
+        font-family:'Gill Sans',
+    }
+
+    body {
+        background-color: #F8d390;
+        margin: 5px;
+    }
+    .Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        max-width:auto;
+        margin-right: 5px;
+        border:black;
+        border-radius: 5%;
+    }
+
+    .img2 {
+        flex-basis:  40%;
+    }
+
+    .p1,.p2,.p3,.p4,.p5 {
+        color:black;
+        font-family: Georgia;
+        background-color: lightpink;
+    }
+
+
+
     </style>
 </head>
 <body>
     <nav>
+        <a href="home.html">HOME</a> 
+        <a href="about.html">ABOUT</a> 
+        <a href="blog.html">BLOG</a>
+        <a href="https://www.instagram.com/madisonwmcdonnell/">INSTAGRAM</a>
+        <a href="https://disabroad.org/copenhagen/">STUDY AT DIS</a>
+        <a href="content" class="skip" tabindex="1">Skip to content</a>
+        <input type="text" placeholder="Search..">
+    </nav>
 
-        <a href="home.html">home</a> &#124;
-        <a href="about.html">about</a> &#124;
-        <a href="blog.html">blog</a>
-        <div class="topnav">
-            <input type="text" placeholder="Search..">
-          </div>
-           
-       </nav>
+    <div id="1">
+        <h1>January 21st,2022</h1>
+    </div>
+    <div class="Container">
+        <div class="img2">
+            <img src="../images/IMG_9226resize.jpg" alt="first day" width="380">
+        </div>
 
-       
+        <p class="p1">
+            Anxiously waiting for my first class to begin, I decide to stroll the streets of Nyhavn for the first time to calm my nerves. The second I turned the street corner; it truly took my breath away. From the colorful buildings to people on their boats, I felt like I was in a fairy tale. All of the sudden all my nerves went away for class, and I knew this was the place I was supposed to be.
+        </p>
+    </div>
+    
 
-<h1>January 21st, 2022</h1>
-<img src="../images/IMG_9226resize.jpg" alt="first day" 
-width="380"><br>
-<p>Anxiously waiting for my first class to begin, I decide to stroll the streets of Nyhavn for the first time to calm my nerves. The second I turned the street corner; it truly took my breath away. From the colorful buildings to people on their boats, I felt like I was in a fairy tale. All of the sudden all my nerves went away for class, and I knew this was the place I was supposed to be. </p>
+    <div id="2">
+        <h1>February 22nd,2022</h1>
+    </div>
+    <div class="Container" id="content">
+        <div class="img2">
+            <img src="../images/IMG_9221.jpg" alt="Northern Lights"  width="380">
+        </div>
 
-<h1>February 22nd, 2022</h1>
-<img src="../images/IMG_9221.jpg" alt="Northern Lights" 
-width="380"><br>
+        <p class="p2">
+            My first class trip was to Finland, going into it, I seriously had no clue what to expect. This tripped turned into something I would never forget. My professor told us that she has been to Finland ten times and has never seen the Northern Lights, but the night we looked up, they were bright. As I’m staring into the Northern Lights, I felt such a magic and it truly felt surreal. Not knowing any of my 20 classmates, we quickly became so close from sharing that experience.
+        </p>
+    </div>
 
-<p>My first class trip was to Finland, going into it, I seriously had no clue what to expect. This tripped turned into something I would never forget. My professor told us that she has been to Finland ten times and has never seen the Northern Lights, but the night we looked up, they were bright. As I’m staring into the Northern Lights, I felt such a magic and it truly felt surreal. Not knowing any of my 20 classmates, we quickly became so close from sharing that experience. </p>
+    <div id="3">
+        <h1>March 26th, 2022</h1>
+    </div>
+    <div class="Container">
+        <div class="img2">
+            <img src="../images/IMG_9224.jpg" alt="Tivoli Fountain"   width="380">
+        </div>
+        <p class="p3">
+            It has always been a bucket list of mine to visit Italy, so I went to visit my best friend in Rome. The first day, we stopped at the Tivoli Fountain and made a wish. Looking around, I remember seeing all the people closing their eyes and making a wish. I felt as if I was in a movie. I will cherish the picture of us two forever.
+        </p>
+    </div>
 
-<h1>March 26th, 2022</h1>
-<img src="../images/IMG_9224.jpg" alt="Tivoli Fountain" 
-width="380"><br>
-<p>It has always been a bucket list of mine to visit Italy, so I went to visit my best friend in Rome. The first day, we stopped at the Tivoli Fountain and made a wish. Looking around, I remember seeing all the people closing their eyes and making a wish. I felt as if I was in a movie. I will cherish the picture of us two forever. </p>
+    <div id="4">
+        <h1>April 20th, 2022</h1>
+    </div>
+    <div class="Container">
+        <div class="img2">
+            <img src="../images/IMG_9227.jpg" alt="dinner"  width="380">
+        </div>
+        <p class="p4">
+            Copenhagen is known for their amazing eats. No matter if its Danish food, Asian, Italian, or anything it will most likely melt in your mouth. My current roommate from Syracuse came to visit me for the weekend, so I took her to one of my favorite local restaurants. We ordered a feta truffle pizza with a bottle of red wine. I remember us catching up on all the time we have missed together, and it was night filled w lots of laughs. 
+        </p>
+    </div>
 
-<h1>April 20th</h1>
-<img src="../images/IMG_9227.jpg" alt="dinner" 
-width="380"><br>
-<p>Copenhagen is known for their amazing eats. No matter if its Danish food, Asian, Italian, or anything it will most likely melt in your mouth. My current roommate from Syracuse came to visit me for the weekend, so I took her to one of my favorite local restaurants. We ordered a feta truffle pizza with a bottle of red wine. I remember us catching up on all the time we have missed together, and it was night filled w lots of laughs. </p>
-
-<h1>May 10th, 2022</h1>
-<img src="../images/IMG_9230.jpg" alt="proud marys" 
-width="380"><br>
-<p>As I was leaving to head back home, one of our last Tuesdays in Copenhagen all my friends and I went to our favorite local spot to buy t-shirts. I still wear this t-shirt to bed all the time and it always makes me smile. At the end of my aboard experience, I didn’t want to leave. I can’t imagine me having to study abroad anywhere else it was truly amazing. </p>
-
-           
+    <div id="5">
+        <h1>May 10th, 2022</h1>
+    </div>
+    <div class="Container">
+        <div class="img2">
+            <img src="../images/IMG_9230.jpg" alt="proud marys"  width="380">
+        </div>
+        <p class="p5">
+            As I was leaving to head back home, one of our last Tuesdays in Copenhagen all my friends and I went to our favorite local spot to buy t-shirts. I still wear this t-shirt to bed all the time and it always makes me smile. At the end of my aboard experience, I didn’t want to leave. I can’t imagine me having to study abroad anywhere else it was truly amazing.
+        </p>
+    </div>
+    
+    
 </body>
+
+    <footer>
+        <hr>
+        &copy;2022
+    </footer>
 </html>

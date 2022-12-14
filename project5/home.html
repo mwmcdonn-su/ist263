@@ -1,81 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madison In Copenhagen</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>home</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One&family=Ubuntu:wght@300&display=swap">
-    <style>
-        nav { 
-            background-color: #F5DEB3;
-            padding:10px;
-            margin-bottom: 30px;
-        }
-        nav a {
-            color:#7b3300
-        }
-        p {
-            color: #742500;
-            font-family: 'Ubuntu';
-            background-color:blanchedalmond;
-            
-        
-            
-        }
-        h1 {
-            color:#8B4513;
-            text-align: center;
-            font-family: 'Fredoka One';
-        
-        }
-        h2 { 
-            color:#8B4513;
-            font-family: 'Fredoka One';
-        }
-        .center {
-            display:block;
-            margin-left:auto;
-            margin-right: auto;
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+ </head>
+ <style>
+    * {
+        box-sizing: border-box;
+    }
+    nav {
+        overflow: hidden;
+        background: lightskyblue;
+        line-height: 30px;
+    }
+    nav a {
+        float:left;
+        display: block;
+        width:auto;
+        text-align:center;
+        color:rgb(142, 80, 0);
+        padding:20px;
+    }
+
+    nav a:hover {
+        background:tan;
+        color: black
+    }
+
+    nav input {
+        float: right;
+        padding: 6px;
+        border:none;
+        margin-top: 16px;
+        margin-bottom:5px;
+        font-size: 17px;
+        border-radius: 10px;
+        outline:none;
+    }
+
+    p {
+        color:black;
+        font-family:Verdana;
+        background-color: blanchedalmond;
+    }
+
+    h1 {
+        color:rgb(146, 62, 2);
+        text-align: center;
+        font-family:'Franklin Gothic Medium';
+    }
+
+    h2{
+        color:rgb(107, 149, 226);
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    body{
+        background-color: tan;
+        margin:5px
+    }
+
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    img{ 
+        max-width:auto;
+        margin-right: 5px;
+        border-radius: 5%;
+    }
+
+    .img2 {
+        flex-basis: 40%;
+    }
+
+
+ </style>
+
+    <body>
     
-        }
-        
-
-</style>
-       
-    </style>
-</head>
-<body>
-    <nav>
-
-        <a href="home.html">home</a> &#124;
-        <a href="about.html">about</a> &#124;
-        <a href="blog.html">blog</a>
-        <div class="topnav">
+        <nav>
+            <a href="home.html">HOME</a> 
+            <a href="about.html">ABOUT</a> 
+            <a href="blog.html">BLOG</a>
+            <a href="https://www.instagram.com/madisonwmcdonnell/">INSTAGRAM</a>
+            <a href="https://disabroad.org/copenhagen/">STUDY AT DIS</a>
+            <a href="content" class="skip" tabindex="1">Skip to content</a>
             <input type="text" placeholder="Search..">
-          </div>
-        <h1>Madison in Copenhagen</h1>
-        <h2> About Me:</h2>
-        <img src="../images/postcard.png" alt="my photo" class="center"
-        width="380"> <br>
-        <p>
-            Hi! My name is Madison McDonnell and I am currently a senior at Syracuse University. I am a Public Health major with a concentration in Healthcare Management and an Information Management Technology minor looking to pursue a career in Pharma or Healthcare Consulting. This past summer, I had the opportunity to work as a Marketing- Commercial Operations intern at Teva Pharmaceuticals. I worked with multiple functional groups which focused directly with different health organizations and stakeholders. When Im not in the classroom, Im usually spending time on sorority recruitment, as I am the recruitment chair this year or freshening up on my tennis skills. 
-        </p>
-        
-        
-        
-        <h2> Why Copenhagen?</h2>
-        <img src="../images/IMG_9231.jpg" alt="copenhagen photo" class="center"
-        width="380"><br>
-        <p> 
-            To be up front, Copenhagen was not my first option when it came to picking where I wanted to go abroad. As most of my friends were studying in Italy and Spain, I felt a sense of “what am I doing,” but little did I know I would have the most life changing experience. As you dive into this website, I want you to feel the culture, beauty, and excitement of all Copenhagen has to offer. From the food to the people to the overall experience I had, I seriously would suggest Copenhagen to anyone!    
-        </p>
-            
     
-           
-       </nav>
-           
-</body>
+        </nav>
+    
+        <h1>Madison Wynter in Copenhagen</h1>
+    
+        <div id="1">
+            <h2> About Me:</h2>
+        </div>
+    
+        <div class="container" id="content">
+            <div class="img2">
+                <img src="../images/postcard.png" alt="postcard" width="380"><br>
+            </div>
+            <p class="text">
+                Hi! My name is Madison Wynter McDonnell, and I am currently a senior at Syracuse University. I am a Public Health major with a concentration in Healthcare Management and minoring in Information Management. Growing up, with my mother in the travel industry, I have always had an intense passion for travel. My parents truly instilled in me that traveling is the best education. While my time abroad in Copenhagen during my second semester of Junior year, I visit many places such as Finland, Prague, Italy, Spain, Germany, and more. In only four months, I truly learned more about myself than I ever thought was possible. Impressing myself in different cultures daily, made me a more diverse world-traveler. I cannot wait for my next abroad travels and see more parts of the world!
+                </p>
+        </div>
+    
+        <div id="2">
+            <h2>Why Copenhagen?</h2>
+        </div>
+    
+        <div class="container">
+            <div class="img2">
+                <img scr="../images/IMG_9231.jpg" alt="copenhagen photo" width="380"><br>
+            </div>
+    
+            <p class="text">
+                As I stepped onto my flight to Copenhagen, I had the sick sense in my stomach of “what am I doing?” Processing that all my college friends were going abroad in Italy and Spain, I felt that I would have some sense of fomo (fear of missing out). Little did I know, 4 months later, I would be crying on the plane ride back home because I didn’t want to leave this amazing place. Copenhagen is not only where dreams come true, but it changed my life. Best decision I ever made was not going with my college friends and truly finding myself. As you dive into this website, I want you to feel the culture, beauty, and excitement of all Copenhagen has to offer. 
+            </p>
+    
+        </div>
+    
+     <footer>
+        <hr>
+        &copy;2020
+     </footer>
+               
+    </body>
 </html>

@@ -5,3 +5,16 @@ span {display:none;}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:wght@300&display=swap');
+
+.skip { 
+    padding:5px;
+    background-color: #f5d69d;
+    border: 1px solid black;
+    position: absolute;
+    top:30px;
+    left: -999px;
+}
+
+.skip:focus {
+    left:10px;
+}
