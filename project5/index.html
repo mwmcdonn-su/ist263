@@ -7,119 +7,120 @@
     <title>home</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
- </head>
- <style>
-    * {
-        box-sizing: border-box;
-    }
-    nav {
-        overflow: hidden;
-        background: lightskyblue;
-        line-height: 30px;
-    }
-    nav a {
-        float:left;
-        display: block;
-        width:auto;
-        text-align:center;
-        color:rgb(142, 80, 0);
-        padding:20px;
-    }
-
-    nav a:hover {
-        background:tan;
-        color: black;
-        padding-bottom: 10%;
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        nav {
+            overflow: hidden;
+            background: lightskyblue;
+            line-height: 30px;
+        }
+        nav a {
+            float:left;
+            display: block;
+            width:auto;
+            text-align:center;
+            color:rgb(65, 31, 7);
+            padding:20px;
+        }
     
-    }
-
-    nav input {
-        float: right;
-        padding: 6px;
-        border:none;
-        margin-top: 16px;
-        margin-bottom:5px;
-        font-size: 17px;
-        border-radius: 10px;
-        outline:none;
-    }
-
-    p {
-        color:black;
-        font-family:Verdana;
-        background-color: blanchedalmond;
-    }
-
-    h1 {
-        position: absolute;
-        color:rgb(146, 62, 2);
-        text-align: center;
-        font-family:'Franklin Gothic Medium';
-        text-transform: uppercase;
-        font-size: 20px;
-    }
-
-    h1 span {
-        position: relative;
-        display:inline-block;
-        animation: animate 1.5s linear infinite;
-    }
-
-    @keyframes animate {
-        0%{
-            transform: translateY(0px);
+        nav a:hover {
+            background:tan;
+            color: black;
+        
         }
-        10%{
-            transform: translateY(-30px);
+    
+        nav input {
+            float: right;
+            padding: 6px;
+            border:none;
+            margin-top: 16px;
+            margin-bottom:5px;
+            font-size: 17px;
+            border-radius: 10px;
+            outline:none;
         }
-        15%{
-            transform: translateY(0px);
+    
+        p {
+            color:black;
+            font-family:Verdana;
+            background-color: blanchedalmond;
         }
-        25%{
-            transform: translateY(-20px);
+    
+        h1 {
+            position: absolute;
+            color:rgb(65, 31, 7);
+            text-align: center;
+            font-family:'Franklin Gothic Medium';
+            text-transform: uppercase;
+            font-size: 20px;
+            padding-top: 5%;
         }
-    }
-
-    h2{
-        color:rgb(107, 149, 226);
-        font-family: 'Franklin Gothic Medium';
-        padding-top: 3%;
-    }
-
-    body{
-        background-color: tan;
-        margin:5px
-    }
-
-    .container{
-        display: flex;
-        align-items:center;
-        justify-content: center;
-    }
-
-    img{ 
-        max-width:auto;
-        margin-right: 5px;
-        border-radius: 5%;
-    }
-
-    .img2 {
-        flex-basis: 40%;
-    }
-
-
- </style>
+    
+        h1 span {
+            position: relative;
+            display:inline-block;
+            animation: animate 1.5s linear infinite;
+        }
+    
+        @keyframes animate {
+            0%{
+                transform: translateY(0px);
+            }
+            10%{
+                transform: translateY(-30px);
+            }
+            15%{
+                transform: translateY(0px);
+            }
+            25%{
+                transform: translateY(-20px);
+            }
+        }
+    
+        h2{
+            color:brown;
+            font-family: 'Franklin Gothic Medium';
+            padding-top: 3%;
+        }
+    
+        body{
+            background-color: tan;
+            margin:5px
+        }
+    
+        .container{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+    
+        img{ 
+            max-width:auto;
+            margin-right: 5px;
+            border-radius: 5%;
+        }
+    
+        .img2 {
+            flex-basis: 40%;
+        }
+    
+    
+     </style>
+ </head>
+ 
 
     <body>
     
         <nav>
-            <a href="home.html">HOME</a> 
+            <a href="index.html">HOME</a> 
             <a href="about.html">ABOUT</a> 
             <a href="blog.html">BLOG</a>
             <a href="https://www.instagram.com/madisonwmcdonnell/">INSTAGRAM</a>
             <a href="https://disabroad.org/copenhagen/">STUDY AT DIS</a>
             <a href="content" class="skip" tabindex="1">Skip to content</a>
-            <input type="text" placeholder="Search..">
+            <label> <input type="text" placeholder="Search..."></label>
     
         </nav>
     
@@ -129,6 +130,7 @@
             <span>In</span>
             <span>Copenhagen</span>
         </h1>
+        <main>
     
         <div id="1">
             <h2> About Me:</h2>
@@ -157,7 +159,7 @@
             </p>
     
         </div>
-    
+         </main>
      <footer>
         <hr>
         &copy;2020
